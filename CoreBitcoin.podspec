@@ -2,13 +2,13 @@
 Pod::Spec.new do |spec|
 
 spec.name         = 'CoreBitcoin-framework'
-spec.version      = '1.0.8'
+spec.version      = '1.0.9'
 spec.summary      = 'CoreBitcoin 封装'
 spec.license      = 'MIT'
-spec.homepage     = 'https://github.com/SmartPear/CoreBitcoin'
+spec.homepage     = 'https://github.com/SmartPear/CoreBitcoin-framework'
 spec.author       = {"王欣" => "=573385822@qq.com" }
 spec.platform     = :ios, '9.0'
-spec.source       = {:git => "https://github.com/SmartPear/CoreBitcoin.git", :tag => spec.version}
+spec.source       = {:git => "https://github.com/SmartPear/CoreBitcoin-framework.git", :tag => spec.version}
 spec.frameworks = 'Foundation'
 spec.source_files  = 'CoreBitcoin-framework/CoreBitcoin-framework/*.{h,m}','CoreBitcoin-framework/CoreBitcoin-framework/category/*.{h,m}'
 spec.swift_version = '5.0'
